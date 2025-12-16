@@ -1,8 +1,15 @@
 ---
-permalink: /about/
-title: "About"
+layout: single
+title: About Us
+permalink: /aboutus/
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+![AboutUs Image](https://github.com/user-attachments/assets/07a82473-3596-4a14-94ec-fb279b69e105)
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+<div style="text-align: center;">
+  
+青二祭は2000年から毎年3月に行われている学校の枠を超えた高校生文化祭です。
+様々な高校から成る実行委員約70名が企画、運営、広報、パンフレット作成、映像制作、当日の司会進行、照明や音響手伝い、装飾、受付などをこなします。
+バンド、ダンス、弾き語り、漫才、ラップ、ビートボックスなど多彩な高校生出演者と豪華ゲストが圧巻のパフォーマンスを繰り広げます。
+
+</div>
