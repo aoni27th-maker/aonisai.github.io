@@ -1,6 +1,3 @@
----
-layout: single
-title: Aoni Festival
----
-
-Aoni Festival website
+/index.md
+/_config.yml
+/_news/
