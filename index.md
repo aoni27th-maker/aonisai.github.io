@@ -1,2 +1,6 @@
-# Welcome to Aoni Festival
-This is a temporary homepage.
+---
+layout: single
+title: Aoni Festival
+---
+
+Aoni Festival website
