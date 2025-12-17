@@ -1,115 +1,40 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: "Aoni Festival"
+subtitle: "Level Up to the Next Stage"
+baseurl: "" # leave blank for GitHub Pages
+url: "https://aoni27th-maker.github.io/aonisai.github.io"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Aoni Festival
-email: aoni27th@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
- 青二祭は2000年から毎年3月に行われている学校の枠を超えた高校生文化祭です。
-様々な高校から成る実行委員約70名が企画、運営、広報、パンフレット作成、映像制作、当日の司会進行、照明や音響手伝い、装飾、受付などをこなします。
-バンド、ダンス、弾き語り、漫才、ラップ、ビートボックスなど多彩な高校生出演者と豪華ゲストが圧巻のパフォーマンスを繰り広げます。
-twitter_username: @aonifestival
-github_username: username
-minimal_mistakes_skin: dark
-search: true
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - history.md
+  - lineup.md
+  - contact.md
 
-include:
-  - _pages
+# Author / social links
+author:
+  name: "Aoni Festival"
+  links:
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/aonifes.official/"
+    - label: "X"
+      icon: "fab fa-x-twitter"
+      url: "https://x.com/aonifestival"
+    - label: "TikTok"
+      icon: "fab fa-tiktok"
+      url: "https://www.tiktok.com/@aonifestival27th?_r=1&_t=ZS-92BSodIxBfI"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/channel/UCl-TnDDbia7sRXtFcLyTDbg"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
+# Plugins (required for GitHub Pages)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
+  - jekyll-seo-tag
   - jekyll-include-cache
 
-author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
   path: /tags/
